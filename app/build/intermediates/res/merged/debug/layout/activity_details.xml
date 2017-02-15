@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/header_imageview"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/logo"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true" />
+
+    <LinearLayout
+        android:id="@+id/informations_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/header_imageview"
+        android:gravity="center"
+        android:background="@color/white"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/country_name"
+            android:textStyle="bold"
+
+            android:textSize="@dimen/_22sdp" />
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:alpha="0.8"
+            android:background="@drawable/rectangle"
+            android:padding="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_below="@+id/informations_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Description :"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/country_description"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Longitude:"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/country_longitude"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Latitude:"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/country_latitude"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Temparture:"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/weather_temparture"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Pression :"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/weather_pression"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Humidity:"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/weather_humidity"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Min Temparture :"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/weather_min_temp"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Max Temparture :"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/weather_max_temp"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Wind Degree:"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/wind_degree"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Wind Speed :"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/wind_speed"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Sea Level:"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/weather_sealevel"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp"
+
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="0dp">
+                    <LinearLayout
+
+                        android:padding="@dimen/_2sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:textColor="#FF707070"
+                            android:text="Grnd Level :"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:textSize="@dimen/_13sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:id="@+id/weather_grnd_level"
+                            android:textColor="#FF707070"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+    <!-- cheat code: negative margin -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/logo"
+        android:id="@+id/picture_weather"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/informations_container"
+        android:layout_marginBottom="-16dp" />
+
+</RelativeLayout>
+<!-- From: file:/C:/weather_czech/app/src/main/res/layout/activity_details.xml -->

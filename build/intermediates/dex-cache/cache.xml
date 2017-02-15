@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\zouari\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\support-annotations-25.0.1-1b413f44f8a0717b26e91e2c155f70606344af61.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\internal_impl-25.0.1-9787ba5b2bb34d4bdb4d572640c4ed321ed48902.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\internal_impl-25.0.1-80271011689cb2c38f4dbaea95dcce59b84a3752.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-d47e47aa67a9898720e0ba50ff3794df7c4d7496.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-866dda9dd8360fa8376597d4c777a8e771b6236f.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-6ba63005e5d3e4e1638cae600adc0471cda31228.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\internal_impl-25.0.1-92e0bfe0abdffdbce20d1d882c5978ceef778079.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-dde7d3ad1ea8ecdb038ca635943692f5a1763f7e.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-30b77c69784b7810a2665552759f6fd5b33f8315.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-00386b3854add6b62ee4e6066c5732574019caa3.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\picasso-2.5.2-67641e06d5b299babdc6453ee17456f9b56444b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-7ad9ff768195bedd12665e96841daaa060ac9465.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-e5fcf47151e762041ea8573ef3f0729db34a3773.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\internal_impl-25.0.1-221a21b7a1da919f7bc87a2d48d9ffeec665c8e7.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-bad1b6bb7ebfbf8db40d46ef6385e1a2f9ee6eb6.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-de2524265b7a5f380ac263ca7483ddfa71163a95.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-5ccb72f0065a8b1561c9d2a594e31c7cf655b3f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\internal_impl-25.0.1-66d0c2cfd2bccc976c28907c3b49a1dc97a03c97.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-97a6e230598d6e7c7771cc45e772e2a06546b975.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-4fd09933defcf9d259b1b41278ce3702282cd372.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-ef5d8de844aa31471e4c61b74cba6c6f3aea270c.jar" />
+    </item>
+    <item
+        jar="C:\Users\zouari\Desktop\Android3\app\build\intermediates\exploded-aar\com.intuit.sdp\sdp-android\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="5831c1517a9c80bf19a6b76ad23b898a7d827c0f">
+        <dex dex="C:\Users\zouari\Desktop\Android3\app\build\intermediates\pre-dexed\release\classes-6de334613ca35d5f517c8f82f4d926df0736861c.jar" />
+    </item>
+
+</items>
